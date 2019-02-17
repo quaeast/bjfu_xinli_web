@@ -133,3 +133,69 @@
     height: 100px;
     background-color: #fed369;
 }
+
+#postcards_title{
+    color: #808080;
+    font-size: 20px;
+    position: relative;
+    left: 5%;
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+#postcards_screen{
+    overflow: scroll;
+}
+
+#postcards_container{
+    position: relative;
+    left: 20px;
+    width: 2000px;
+}
+
+.postcards{
+    width: 516px;
+    height: 572px;
+    margin: 20px 24px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px -3px rgb(47, 185, 145);
+}
+
+.postcards img{
+    width: 488px;
+    height: 283px;
+    margin: 12px 14px;
+    border-radius: 10px;
+}
+
+.postcards_header{
+    color: #3A3A3A;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 14px 25px 24px;
+}
+
+.postcards_content{
+    width: 445px;
+    margin: 0px auto;
+}
+
+.postcards_omit{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #808080;
+}
+
+.postcards_signature{
+    font-size: 20px;
+    color: #35C19C;
+    float: right;
+}
+
+.postcards_time{
+    font-size: 20px;
+    color: #B6B6B6;
+    float: left;
+}
