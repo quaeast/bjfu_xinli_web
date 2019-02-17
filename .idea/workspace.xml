@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5a7c56-46b1-43a6-b564-2ab281e10dd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/底部图案.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/心理微电影.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/心理微绘本.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/心理情景剧.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/情景剧本征集.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/photo_TV.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/photo_TV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/photo_TV.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/photo_TV.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,34 +41,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="22" />
-          <entry key="html" value="13" />
+          <entry key="css" value="25" />
+          <entry key="html" value="14" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="9" />
-          <entry key="png" value="11" />
+          <entry key="js" value="11" />
+          <entry key="png" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="22" />
-          <entry key="HTML" value="13" />
-          <entry key="Image" value="15" />
-          <entry key="JavaScript" value="9" />
+          <entry key="CSS" value="25" />
+          <entry key="HTML" value="14" />
+          <entry key="Image" value="42" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3024" />
+          <entry key="css" value="4239" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="1944" />
-          <entry key="js" value="6432" />
+          <entry key="html" value="2427" />
+          <entry key="js" value="6433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3024" />
-          <entry key="HTML" value="1944" />
-          <entry key="JavaScript" value="6432" />
+          <entry key="CSS" value="4239" />
+          <entry key="HTML" value="2427" />
+          <entry key="JavaScript" value="6433" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -71,22 +76,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="296">
+              <caret line="164" column="33" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
-              <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+            <state relative-caret-position="267">
+              <caret line="367" column="22" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/悬浮地球.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/background_img.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -116,17 +131,17 @@
       <list>
         <option value="$PROJECT_DIR$/styles/all.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/styles/all.css" />
         <option value="$PROJECT_DIR$/styles/test_amaze.html" />
         <option value="$PROJECT_DIR$/styles/test_screen.css" />
         <option value="$PROJECT_DIR$/test_screen.html" />
         <option value="$PROJECT_DIR$/styles/test-screen.html" />
         <option value="$PROJECT_DIR$/js/learn.js" />
         <option value="$PROJECT_DIR$/test-screen.html" />
-        <option value="$PROJECT_DIR$/js/photo_TV.js" />
         <option value="$PROJECT_DIR$/styles/photo_TV.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/all.css" />
+        <option value="$PROJECT_DIR$/js/photo_TV.js" />
         <option value="$PROJECT_DIR$/styles/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -185,6 +200,11 @@
             <path>
               <item name="xinli2019_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinli2019_1" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinli2019_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinli2019_1" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,6 +227,9 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/imgs" />
       <recent name="$PROJECT_DIR$" />
@@ -270,12 +293,12 @@
       <workItem from="1550379419009" duration="239000" />
       <workItem from="1550379662535" duration="1475000" />
       <workItem from="1550381536895" duration="396000" />
-      <workItem from="1550382628047" duration="10088000" />
+      <workItem from="1550382628047" duration="20835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75483000" />
+    <option name="totallyTimeSpent" value="86230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -310,19 +333,10 @@
     <entry file="file://$PROJECT_DIR$/styles/all.html" />
     <entry file="file://$PROJECT_DIR$/images/背板.png" />
     <entry file="file://$PROJECT_DIR$/images/按钮样式.png" />
-    <entry file="file://$PROJECT_DIR$/images/green_button.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/中心力量.png" />
-    <entry file="file://$PROJECT_DIR$/images/咨询团队 卡片.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/中心师资.png" />
     <entry file="file://$PROJECT_DIR$/images/中心原则.png" />
     <entry file="file://$PROJECT_DIR$/images/power_of_center.png" />
-    <entry file="file://$PROJECT_DIR$/images/three_center.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/imgs/2.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -350,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/photo_TV.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/photo_TV.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -364,24 +371,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/green_button.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/heart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/shizi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/three_center.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/three_left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/three_right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TOP 1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TOP 2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TOP 3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/心理微绘本.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/心理情景剧.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/心理微电影.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/心理知识-精品讲座.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/底部导航.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/咨询团队 卡片.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/wennuan.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/虚线框.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/预约流程-序号.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/素质拓展-团体辅导.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/抬头.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-19">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/photo_TV.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/底部图案.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/background_img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/悬浮地球.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="367" column="22" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+        <state relative-caret-position="296">
+          <caret line="164" column="33" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="33" />
         </state>
       </provider>
     </entry>

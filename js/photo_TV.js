@@ -8,11 +8,6 @@ function* get_left(){
 
 let left = get_left();
 
-for (let i = 0; i<10; i++){
-    console.log(left.next().value);
-}
-
-
 window.setInterval(function () {
     p.animate({
         left: left.next().value + 'px'
