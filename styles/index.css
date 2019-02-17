@@ -359,6 +359,7 @@
     position: relative;
     top: 305px;
     left: 750px;
+    width: 700px;
 }
 
 #related_links_title{
@@ -375,6 +376,3 @@
     margin: 0px 35px;
 }
 
-#related_links{
-
-}
