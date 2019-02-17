@@ -1,0 +1,20 @@
+#tv{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#photos{
+    width: 9000px;
+    position: relative;
+    left: -1065px;
+}
+#photos img{
+    width: 1190px;
+    height: 660px;
+    float: left;
+}
+
+#tv_button{
+    height: 100px;
+    background-color: black;
+}
