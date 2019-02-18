@@ -11,6 +11,6 @@ let left = get_left();
 window.setInterval(function () {
     p.animate({
         left: left.next().value + 'px'
-    }, 1000);
-}, 5000)
+        }, 1000);
+    }, 5000)
 

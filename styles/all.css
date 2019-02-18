@@ -88,3 +88,33 @@ a{
     box-shadow: 0px 10px 40px 0px rgb(58, 226, 177);
 }
 
+/*green underline*/
+
+.green_underline{
+    background-color: #1C9B7A;
+    width: 132px;
+    height: 13px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+/*dash_line*/
+
+.dash_line{
+    height: 3px;
+    overflow: hidden;
+}
+
+.dash_line div{
+    width:92%;
+    height:0;
+    border-bottom: #bdbdbd 10px dashed;
+    margin: 0 auto;
+}
+
+/*second header*/
+
+.header_2nd{
+    font-size: 40px;
+    color: #303030;
+}
