@@ -1,6 +1,6 @@
 #container{
     width: 1440px;
-    height: 4249px;
+    height: 8000px;
     margin: 0 auto;
     background: url("../images/top_normal.png") no-repeat left top;
     background-size: 100%;
@@ -75,7 +75,7 @@
 
 #content{
     width: 90%;
-    height: 5000px;
+    height: 8000px;
     margin: 0 auto;
     background-color: #FFFFFF;
 
@@ -199,5 +199,114 @@
 
 #appointment{
     width: 80%;
-    margin: 200px auto 0px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+#appointment_content{
+    margin: 66px 10px;
+}
+
+#appointment_content div{
+    float: left;
+}
+
+#appointment_content img{
+    width: 30px;
+}
+
+#appointment_content_right{
+    margin-top: 31px;
+    margin-left: 30px;
+}
+
+#appointment_content_right p{
+    font-size: 22px;
+    color: #6A6A6A;
+    margin-bottom: 80px;
+}
+
+#third_line{
+    clear: both;
+    position: relative;
+    top: 30px;
+}
+
+/*counselors*/
+
+#counselors{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+#counselors_title{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#counselor_cards_container{
+    width: 1270px;
+    height: 1800px;
+
+    margin: 50px auto 0px;
+}
+
+.counselor_card{
+    width: 370px;
+    height: 540px;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+
+    float: left;
+
+    box-shadow: 0px 0px 40px -10px #6A6A6A;
+}
+
+.counselor_card img{
+    width: 188px;
+    height: 188px;
+    border-radius: 50%;
+    margin: 40px 90px;
+    box-shadow: 0px 0px 5px 0px #6A6A6A;
+}
+
+.counselor_card_name{
+    font-size: 29px;
+    color: #303030;
+    text-align: center;
+}
+
+.counselor_card_bio{
+    font-size: 22px;
+    color: #666666;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.counselor_card_more{
+    width: 170px;
+    height: 48px;
+    background-color: #1A9A7A;
+    border-radius: 24px;
+
+    font-size: 22px;
+    color: #FFFFFF;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+    position: relative;
+    left: 100px;
+
+    transition-duration: 300ms;
+    transition-property: box-shadow;
+}
+
+.counselor_card_more:hover{
+    transition-duration: 300ms;
+    transition-property: box-shadow;
+    box-shadow: 5px 5px 20px -5px #1A9A7A;
 }
