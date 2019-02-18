@@ -1,0 +1,30 @@
+#container{
+    width: 1440px;
+    height: 4249px;
+    margin: 0 auto;
+    background: url("../images/top_normal.png") no-repeat left top, url("../images/bottom_normal.png") no-repeat left bottom;
+    background-size: 100%, 100%;
+    overflow: hidden;
+}
+
+/*head and navigation*/
+
+#navigation_box{
+    position: relative;
+    top: 30px;
+}
+
+#head li{
+    color: #FFFFFF;
+}
+
+#head li a{
+    color: #FFFFFF;
+}
+
+#nav_underline{
+    position: relative;
+    left: 115px;
+}
+
+
