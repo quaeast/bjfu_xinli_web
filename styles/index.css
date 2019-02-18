@@ -4,6 +4,7 @@
     margin: 0 auto;
     background: url("../images/heart.png") no-repeat right top, url("../images/bottom_index.png") no-repeat left bottom, url("../images/background_img.png") no-repeat right top;
     background-size: 45%, 48%, 100%;
+    overflow: hidden;
 }
 
 /*header and navigation*/
@@ -134,12 +135,10 @@
 }
 
 #postcards_title{
+    width: 90%;
     color: #808080;
     font-size: 20px;
-    position: relative;
-    left: 5%;
-    margin-top: 36px;
-    margin-bottom: 16px;
+    margin: 36px auto 16px;
 }
 
 /*postcards*/
