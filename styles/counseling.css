@@ -123,6 +123,7 @@
 
 #informed_consent_card{
     width: 90%;
+    height: 1870px;
     margin: 80px auto 0px;
     background: url("../images/shadow_corner_LT.png") no-repeat left top, url("../images/shadow_corner_RB.png") no-repeat right bottom;
     border-radius: 90px;
