@@ -7,28 +7,40 @@
     <link rel="stylesheet" href="../styles/counseling.css">
 </head>
 <body>
-<div id="container">
 
+<!--skip-->
+<!--这个页面的页内跳转到container以内的id有bug,其他页面都可以正常跳转，很玄学。-->
+<!--bug是写到一半的时候突然出现的，所以想出这个奇奇怪怪的办法。-->
+<div id="step1" style="position: relative; top: 400px"></div>
+<div id="step2" style="position: relative; top: 1200px"></div>
+<div id="step3" style="position: relative; top: 3450px"> </div>
+<div id="step4" style="position: relative; top: 4400px"></div>
+<div id="step5" style="position: relative; top: 6650px"></div>
+<!--skip-->
+
+<div id="container">
     <div id="head">
         <div id="navigation_box">
             <ul id="navigation_list">
                 <li> <a href="../index.html">中心概述</a> </li>
                 <li> <span id="nav_bold">心理咨询</span></li>
-                <li> <a href="">心理教育</a> </li>
-                <li> <a href="">朋辈队伍</a> </li>
+                <li> <a href="education.html">心理教育</a> </li>
+                <li> <a href="friends.html">朋辈队伍</a> </li>
                 <li> <a href="">中心指南</a> </li>
             </ul>
             <div id="nav_underline"></div>
         </div>
     </div>
 
+
     <div id="five_buttons">
-        <div id="1st_b"><a href="#head">来访者须知</a></div>
-        <div id="2nd_b"><a href="#informed_consent">知情协议</a></div>
-        <div id="3rd_b"><a href="#appointment">预约流程</a></div>
-        <div id="4th_b"><a href="#counselors">咨询团队</a></div>
-        <div id="5th_b"><a href="">咨询师工作守则</a></div>
+        <div id="1st_b"><a href="#step1">来访者须知</a></div>
+        <div id="2nd_b"><a href="#step2">知情协议</a></div>
+        <div id="3rd_b"><a href="#step3">预约流程</a></div>
+        <div id="4th_b"><a href="#step4">咨询团队</a></div>
+        <div id="5th_b"><a href="#step5">咨询师工作守则</a></div>
     </div>
+
 
     <div id="content">
         <div id="tips_for_visitors">
@@ -48,7 +60,7 @@
             </div>
         </div>
 
-        <div class="dash_line"><div></div></div>
+        <div class="dash_line" id="first_line"><div></div></div>
 
         <div id="informed_consent">
             <div id="informed_consent_title">

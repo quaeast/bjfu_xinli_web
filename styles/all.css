@@ -90,6 +90,8 @@ a{
 
 /*green underline*/
 
+/*<div class="dash_line" id="first_line"><div></div></div>*/
+
 .green_underline{
     background-color: #1C9B7A;
     width: 132px;
