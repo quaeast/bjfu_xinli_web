@@ -136,12 +136,14 @@ a{
     height: 380px;
     float: right;
     position: relative;
-    top: 220px;
+    top: 200px;
 }
 
 #foot_related_links1 p{
     font-size: 26px;
     color: #121212;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 #foot_related_links1 td{
@@ -158,7 +160,8 @@ a{
 #foot_related_links2 p{
     font-size: 26px;
     color: #121212;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 #foot_related_links2 li{
