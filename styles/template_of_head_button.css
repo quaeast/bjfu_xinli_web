@@ -23,8 +23,8 @@
 
 #nav_underline{
     position: relative;
-    left: 230px;
-    /*115*n*/
+    left: 345px;
+    /* 115*n */
 }
 
 
@@ -78,69 +78,8 @@
     width: 90%;
     margin: 0 auto;
     background-color: #FFFFFF;
+
     border-radius: 80px;
 }
 
-#knowledge{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 115px;
-    padding-bottom: 55px;
-}
-
-#institute{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 55px;
-}
-
-/*optional course*/
-
-#optional_course{
-    width: 80%;
-    margin: 77px auto 0px;
-}
-
-#optional_course p{
-    font-size: 22px;
-    color: #858585;
-    margin-top: 65px;
-    margin-bottom: 80px;
-}
-
-/*contributions*/
-
-#contributions{
-    width: 80%;
-    margin: 60px auto 0px;
-    padding: 115px;
-}
-
-#contributions_content{
-    margin-top: 65px;
-}
-
-#contributions_content p{
-    font-size: 22px;
-    color: #858585;
-    margin: 15px 0px;
-}
-
-#contributions_content br{
-
-}
-
-#contributions_content table{
-    border-collapse: collapse;
-    margin: 5px;
-}
-
-#contributions_content td{
-    font-size: 22px;
-    color: #858585;
-    width: 400px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #858585;
-}
+/*template of some button at top*/

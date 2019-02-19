@@ -176,3 +176,43 @@ a{
     color: #004533;
 }
 
+
+/*education card*/
+
+.education_card{
+    width: 1000px;
+    height: 165px;
+
+    margin: 0 auto;
+
+    margin-top: 45px;
+
+    border-radius: 30px;
+
+    box-shadow: 0px 0px 50px -10px #27d9aa;
+
+}
+
+.education_card img{
+    width: 210px;
+    height: 135px;
+    margin: 15px 20px;
+    border-radius: 20px 0px 0px 20px;
+    float: left;
+}
+
+.education_card_content{
+    float: left;
+    margin-left: 40px;
+}
+
+.education_card_content_title{
+    font-size: 30px;
+    color: #464646;
+    margin: 30px 0px;
+}
+
+.education_card_content p{
+    font-size: 22px;
+    color: #858585;
+}
