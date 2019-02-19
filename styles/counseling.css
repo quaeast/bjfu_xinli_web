@@ -1,6 +1,6 @@
 #container{
     width: 1440px;
-    height: 8000px;
+    height: 8370px;
     margin: 0 auto;
     background: url("../images/top_normal.png") no-repeat left top;
     background-size: 100%;
@@ -45,7 +45,7 @@
     display: inline-block;
     margin:  0px 25px;
 
-    box-shadow: 0px 0px 50px -10px #0e484a;
+    box-shadow: 5px 10px 50px -10px #0e484a;
 
     transition-duration: 200ms;
     transition-property: box-shadow;
@@ -75,7 +75,7 @@
 
 #content{
     width: 90%;
-    height: 8000px;
+    height: 7700px;
     margin: 0 auto;
     background-color: #FFFFFF;
 
@@ -108,7 +108,7 @@
 /*informed consent*/
 
 #informed_consent{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 #informed_consent_title{
@@ -247,9 +247,10 @@
 
 #counselor_cards_container{
     width: 1270px;
-    height: 1800px;
+    height: 1750px;
 
-    margin: 50px auto 0px;
+    margin: 70px auto 0px;
+    overflow-y: scroll;
 }
 
 .counselor_card{
@@ -257,11 +258,11 @@
     height: 540px;
     border-radius: 30px;
     margin-left: 40px;
-    margin-top: 40px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
 
-    box-shadow: 0px 0px 40px -10px #6A6A6A;
+    box-shadow: 0px 0px 30px -10px #6A6A6A;
 }
 
 .counselor_card img{
@@ -281,7 +282,7 @@
 .counselor_card_bio{
     font-size: 22px;
     color: #666666;
-    width: 90%;
+    width: 85%;
     margin: 30px auto;
 }
 
@@ -310,3 +311,48 @@
     transition-property: box-shadow;
     box-shadow: 5px 5px 20px -5px #1A9A7A;
 }
+
+#find_more{
+    margin: 20px;
+    font-size: 27px;
+    color: #818181;
+    text-align: center;
+}
+
+#find_more img{
+    width: 45px;
+    margin-top: 10px;
+}
+
+#fourth_line{
+    position: relative;
+    top: 100px;
+}
+
+/*work_regulations*/
+
+#work_regulations{
+    padding-top: 210px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#work_regulations_content{
+    padding-top: 70px;
+}
+
+#work_regulations_content p{
+    font-size: 22px;
+    color: #858585;
+    padding: 15px;
+}
+
+/*foot*/
+
+#foot{
+    position: relative;
+    top: -300px;
+}
+
+
+
