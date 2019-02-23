@@ -1,15 +1,24 @@
 // >=375px
 
+function get_scroll_top() {
+    return document.documentElement.scrollTop || document.body.scrollTop;
+}
+
+
+
+
 function change_color() {
-    if (document.documentElement.scrollTop > 375){
+    if (get_scroll_top() > 375){
         $('.up_to_head div').css('opacity', '0.6');
+        console.log('1');
     }
-    if (document.documentElement.scrollTop < 375){
+    if (get_scroll_top() < 375){
         $('.up_to_head div').css('opacity', '0');
+        console.log('2');
     }
 }
 
 $('.up_to_head').click();
 
-window.setInterval(change_color, 1);
+window.setInterval(change_color, 100);
 
