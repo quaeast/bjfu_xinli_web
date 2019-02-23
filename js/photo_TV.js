@@ -12,5 +12,5 @@ window.setInterval(function () {
     p.animate({
         left: left.next().value + 'px'
         }, 1000);
-    }, 5000)
+    }, 5000);
 
