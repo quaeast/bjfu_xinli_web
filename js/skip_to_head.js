@@ -10,11 +10,11 @@ function get_scroll_top() {
 function change_color() {
     if (get_scroll_top() > 375){
         $('.up_to_head div').css('opacity', '0.6');
-        console.log('1');
+        // console.log('1');
     }
     if (get_scroll_top() < 375){
         $('.up_to_head div').css('opacity', '0');
-        console.log('2');
+        // console.log('2');
     }
 }
 

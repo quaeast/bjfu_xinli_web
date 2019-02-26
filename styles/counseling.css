@@ -45,8 +45,7 @@
     display: inline-block;
     margin:  0px 25px;
 
-    box-shadow: 5px 10px 50px -10px #0e484a;
-
+    box-shadow: 0 21px 44px -20px rgba(20,108,85,0.33);
     transition-duration: 200ms;
     transition-property: box-shadow;
 }
@@ -54,7 +53,7 @@
 #five_buttons div:hover{
     transition-property: all;
     transition-duration: 300ms;
-    box-shadow: 3px 5px 40px -10px #0e484a;
+    box-shadow: 0 23px 44px -20px #1C9B7A;
     background-color: #1C9B7A;
 }
 
@@ -145,53 +144,6 @@
     line-height: 30px;
 }
 
-#shadows{
-    height: 0px;
-}
-
-#shadows div{
-    margin: 0 auto;
-}
-
-.shadow_box{
-    overflow: hidden;
-}
-
-#last_shadow{
-    height: 550px;
-}
-
-#shadow_1{
-    width: 90%;
-    height: 290px;
-}
-
-#shadow_2{
-    width: 90%;
-    height: 260px;
-    box-shadow:  0px 0px 70px 30px #80b7a8;
-}
-
-#shadow_3{
-    width: 90%;
-    height: 650px;
-    box-shadow:  0px -20px 70px 30px #659186;
-}
-
-#shadow_4{
-    width: 90%;
-    height: 300px;
-    box-shadow:  0px 0px 70px 30px #80b7a8;
-}
-
-#shadow_5{
-    width: 90%;
-    height: 450px;
-    box-shadow:  0px 0px 70px 40px #c8ba9a;
-    border-radius: 0 0 100px 100px;
-}
-
-
 #second_line{
     position: relative;
     top: 120px;
@@ -264,7 +216,7 @@
     margin-bottom: 20px;
     float: left;
 
-    box-shadow: 0px 0px 30px -10px #6A6A6A;
+    box-shadow: 0 6px 30px -5px rgba(0,0,0,0.12);
 }
 
 .counselor_card img{

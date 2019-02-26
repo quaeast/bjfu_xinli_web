@@ -46,7 +46,7 @@
     display: inline-block;
     margin:  0px 25px;
 
-    box-shadow: 5px 10px 50px -10px #0e484a;
+    box-shadow: 0 21px 44px -20px rgba(20,108,85,0.33);
 
     transition-duration: 200ms;
     transition-property: box-shadow;
@@ -55,7 +55,7 @@
 #four_buttons div:hover{
     transition-property: all;
     transition-duration: 300ms;
-    box-shadow: 3px 5px 40px -10px #0e484a;
+    box-shadow: 0 23px 44px -20px #1C9B7A;
     background-color: #1C9B7A;
 }
 
@@ -127,9 +127,6 @@
     margin: 15px 0px;
 }
 
-#contributions_content br{
-
-}
 
 #contributions_content table{
     border-collapse: collapse;
