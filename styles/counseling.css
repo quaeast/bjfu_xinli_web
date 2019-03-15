@@ -126,8 +126,8 @@
     margin: 80px auto 0px;
     background: url("../images/shadow_corner_LT.png") no-repeat left top, url("../images/shadow_corner_RB.png") no-repeat right bottom;
     border-radius: 90px;
-    box-shadow: 0px 0px 60px -20px #1a906f;
-    background-color: #FFFFFF;
+    box-shadow: 5px 15px 100px -40px #1d9f7b;
+    /*background-color: #FFFFFF;*/
 }
 
 #informed_consent_content{
@@ -215,8 +215,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     float: left;
+    border: #ededed solid 1px;
 
-    box-shadow: 0 6px 30px -5px rgba(0,0,0,0.12);
+    box-shadow: 0px 15px 80px -20px rgba(0,0,0,0.12);
 }
 
 .counselor_card img{

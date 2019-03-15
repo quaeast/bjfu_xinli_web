@@ -187,7 +187,7 @@
     border-radius: 50%;
     width: 100%;
     transition-duration: 300ms;
-    box-shadow: 0 21px 44px -20px rgba(20,108,85,0.33);
+    box-shadow: 10px 21px 66px -5px rgba(96, 190, 158, 0.33);
 }
 
 #activities_points img:hover{
