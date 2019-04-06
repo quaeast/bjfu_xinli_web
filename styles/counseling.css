@@ -1,6 +1,6 @@
 #container{
     width: 1440px;
-    height: 8370px;
+    /*height: 8370px;*/
     margin: 0 auto;
     background: url("../images/top_normal.png") no-repeat left top;
     background-size: 100%;
@@ -74,7 +74,7 @@
 
 #content{
     width: 90%;
-    height: 7700px;
+    /*height: 7700px;*/
     margin: 0 auto;
     background-color: #FFFFFF;
 
@@ -294,6 +294,7 @@
 
 #work_regulations_content{
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #work_regulations_content p{
@@ -305,8 +306,8 @@
 /*foot*/
 
 #foot{
-    position: relative;
-    top: -300px;
+    /*position: relative;*/
+    /*top: -300px;*/
 }
 
 
