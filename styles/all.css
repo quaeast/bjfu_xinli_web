@@ -236,10 +236,13 @@ a{
 .up_to_head div{
     width: 70px;
     height: 70px;
-    background-color: black;
     position: fixed;
-    left: 1250px;
+    left: 1350px;
     top: 200px;
-    opacity:1;
     z-index: 100;
+}
+
+.up_to_head img{
+    width: 130px;
+    opacity: 0;
 }
