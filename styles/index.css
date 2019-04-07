@@ -110,14 +110,17 @@
     overflow-x: scroll;
 }
 
-#postcards_screen::-webkit-scrollbar {
-    display: none;
-}
+/*#postcards_screen::-webkit-scrollbar {*/
+    /*display: none;*/
+/*}*/
 
 #postcards_container{
     position: relative;
     left: 20px;
-    width: 2000px;
+    width: 1692px;
+    /*
+    564*n
+    */
 }
 
 .postcards{

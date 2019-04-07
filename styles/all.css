@@ -235,10 +235,8 @@ a{
 }
 
 .up_to_head div{
-    width: 70px;
-    height: 70px;
     position: fixed;
-    left: 1350px;
+    left: 82%;
     top: 200px;
     z-index: 100;
 }
