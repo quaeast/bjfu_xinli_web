@@ -124,6 +124,10 @@ a{
     color: #303030;
 }
 
+.header_3nd{
+    font-size: 30px;
+    /*font-weight: bold;*/
+}
 
 /*foot*/
 
@@ -246,3 +250,9 @@ a{
     opacity: 0;
 }
 
+/*composing*/
+
+.w80{
+    width: 80%;
+    margin: 0 auto;
+}
