@@ -40,7 +40,8 @@
 /*content*/
 
 ._content{
-    font-size: 27px;
+    font-size: 22px;
+    color: #858585;
 }
 
 /*bio*/
@@ -51,43 +52,17 @@
     padding-top: 50px;
 }
 
-table{
-    padding-top: 30px;
-    font-size: 25px;
-    display: inline-block;
-}
 
-.odd{
-    width: 120px;
-}
-
-td{
-    width: 200px;
-    padding-top: 20px;
-}
-
-#por{
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    padding-left: 100px;
-}
-
-#certificate{
-    padding-top: 50px;
-    font-weight: bold;
-    font-size: 27px;
-}
 
 /*edu_bkg*/
 
 #education_background{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 #edu_bkg_content{
-    font-size: 27px;
-    padding-top: 20px;
+    font-size: 22px;
+
 }
 
 #edu_bkg_content .header_3nd{
@@ -96,21 +71,39 @@ td{
 
 }
 
+#por{
+    width: 250px;
+    height: 0px;
+    position: relative;
+    overflow: visible;
+    top: -320px;
+    left: 800px;
+}
+
+#por img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#por p{
+    width: 100%;
+    text-align: center;
+}
+
 /*train*/
 
 #training{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 #training_content{
     padding-top: 30px;
-    font-size: 27px;
 }
 
 /*strenth*/
 
 #strength{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 #strength_content{
@@ -119,7 +112,7 @@ td{
 
 
 #ana{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 #ana_content{
