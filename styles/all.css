@@ -160,6 +160,11 @@ a{
     padding-top: 10px;
 }
 
+#foot_related_links1 td a{
+    font-size: 22px;
+    color: #4A4A4A;
+}
+
 #foot_related_links2{
     margin-top: 60px;
 }
