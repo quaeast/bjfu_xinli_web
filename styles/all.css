@@ -15,6 +15,20 @@ a{
     color: black;
 }
 
+/*logo*/
+
+.logo{
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    position: relative;
+    top: 13px;
+    left: 35px;
+}
+
+.logo img{
+    width: 80px;
+}
 
 /*head and navigation*/
 
@@ -146,6 +160,10 @@ a{
     top: 200px;
 }
 
+#related_links{
+    margin-bottom: 10px;
+}
+
 #foot_related_links1 p{
     font-size: 26px;
     color: #121212;
@@ -166,7 +184,7 @@ a{
 }
 
 #foot_related_links2{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 #foot_related_links2 p{
