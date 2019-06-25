@@ -1,6 +1,5 @@
 #container{
     width: 1440px;
-    height: 4249px;
     margin: 0 auto;
     background: url("../images/heart.png") no-repeat right top, url("../images/bottom_index.png") no-repeat left bottom, url("../images/background_img.png") no-repeat right top;
     background-size: 45%, 48%, 100%;
@@ -281,9 +280,8 @@
 #contactUs{
     width: 80%;
     height: 323px;
-    margin: 0 auto;
     position: relative;
-    top: 100px;
+    margin: 80px auto 0;
 }
 
 #contactUs_title{
@@ -309,7 +307,7 @@
     color: #9B9B9B;
     clear: both;
     position: relative;
-    top: 100px;
+    top: 30px;
     left: 480px;
 }
 
@@ -322,10 +320,11 @@
 
 #related_links{
     position: relative;
-    top: 305px;
     /*top-7*/
     left: 750px;
     width: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #related_links_title{

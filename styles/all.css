@@ -22,12 +22,11 @@ a{
     height: 0px;
     overflow: visible;
     position: relative;
-    top: 13px;
-    left: 35px;
+    top: -15px;
 }
 
 .logo img{
-    width: 80px;
+    width: 75px;
 }
 
 /*head and navigation*/
