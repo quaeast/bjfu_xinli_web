@@ -5,13 +5,11 @@
     <title>index</title>
     <link rel="stylesheet" type="text/css" href="styles/all.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
-    <!--<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <link rel="stylesheet" href="styles/photo_TV.css">
     <script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 <div id="container">
-
     <div id="head">
 
         <!--<div class="logo">-->
@@ -25,8 +23,6 @@
                     <div class="logo">
                         <img src="images/logo.png">
                     </div>
-
-
                 </li>
                 <li> <a href="html/counseling.html">心理咨询</a> </li>
                 <li> <a href="html/education.html">心理教育</a> </li>
@@ -72,38 +68,41 @@
 
     <div id="tv">
         <div id="photos">
-            <div class="img_group">
-                <img src="resource/photo_tv/3.jpg">
-
-                <div class="img_tip"><div class="bullet"></div><span>北京林业大学班级素质拓展大赛</span></div>
-            </div>
-
-            <div class="img_group">
-                <img src="resource/photo_tv/1.jpg">
-
-                <div class="img_tip"><div class="bullet"></div><span>尊重生命，拥抱阳光讲座</span></div>
-            </div>
-
-            <div class="img_group">
-                <img src="resource/photo_tv/2.jpg">
-
-                <div class="img_tip"><div class="bullet"></div><span>心理脱口秀</span></div>
-            </div>
-
-            <div class="img_group">
-                <img src="resource/photo_tv/3.jpg">
-                <div class="img_tip"><div class="bullet"></div><span>北京林业大学班级素质拓展大赛</span></div>
-            </div>
-
-            <div class="img_group">
-                <img src="resource/photo_tv/1.jpg">
-                <div class="img_tip"><div class="bullet"></div><span>尊重生命，拥抱阳光讲座</span></div>
-            </div>
-
+        	<ul id="photos_ul">
+		    <!-- 	<li class="img_group">
+		            	<div class="img_tip"><span>北京林业大学班级素质拓展大赛</span></div>
+		 				<img src="resource/photo_tv/3.jpg">
+		                <div class="img_tip_bottom"></div>
+				</li> -->
+				<li class="img_group">
+		           		<div class="img_tip"><span>尊重生命，拥抱阳光讲座</span></div>
+						<img src="resource/photo_tv/1.jpg">
+		                <div class="img_tip_bottom"></div>  
+		        </li>
+				<li class="img_group">
+		            	<div class="img_tip"><span>心理脱口秀</span></div> 
+		          		<img src="resource/photo_tv/2.jpg">
+		                <div class="img_tip_bottom"></div>
+		        </li>
+				<li class="img_group">
+		           		<div class="img_tip"><span>北京林业大学班级素质拓展大赛</span></div>
+						<img src="resource/photo_tv/3.jpg">
+		              	<div class="img_tip_bottom"></div>
+		        </li>
+			<!-- 	<li class="img_group">
+		         		<div class="img_tip"><span>尊重生命，拥抱阳光讲座</span></div>
+		         		<img src="resource/photo_tv/1.jpg">
+		                <div class="img_tip_bottom"></div>
+				</li> -->
+			</ul>
             <!-- 3 1 2 3 1 -->
-
         </div>
+        <div class="dot">
+			<ol>
+			</ol>
+		</div>
     </div>
+
     <div id="tv_button">
     </div>
     <div id="postcards_title">
@@ -215,6 +214,76 @@
         </ul>
     </div>
 </div>
+<!-- <script src="js/photo_TV.js"></script> -->
+<script>
+
+	window.onload=function(){
+		var lis=$("#photos_ul")[0].children;
+        var photos_ul=$("#photos_ul")[0];
+        var current_index=0,indicator_index=0;
+
+		photos_ul.appendChild(lis[0].cloneNode(true));
+
+		for(var i=0;i<lis.length-1;i++){
+                var li=document.createElement("li");
+                $("ol")[0].appendChild(li);
+            }
+
+		var olLis=$("ol")[0].children;
+
+		for(var j=0;j<olLis.length;j++){
+			(function(j){
+				var li=olLis[j];
+				li.onmouseover=function(){
+			
+					for(var i=0;i<olLis.length;i++){
+						olLis[i].className="";
+					}
+					
+					this.className="current";
+					
+					constant(photos_ul,-1440*j,144)
+                    current_index=indicator_index=j;
+				}
+			})(j)
+		}
+
+        var timer=setInterval(function(){
+            current_index++;
+            if(current_index>lis.length-1){
+                photos_ul.style.left=0;
+                current_index=1;
+            }
+            constant(photos_ul,-current_index*1440,72);
+
+            indicator_index++;
+            if(indicator_index>olLis.length-1){
+                indicator_index=0;
+            }
+            for(var i=0;i<olLis.length;i++){
+                olLis[i].className="";
+            }
+                    
+            olLis[indicator_index].className="current";
+        },3000)
+
+        function constant(obj,target,speed){
+            clearInterval(obj.timer);
+
+            var dir=obj.offsetLeft<target?speed:-speed;
+
+            obj.timer=setInterval(function(){
+                obj.style.left=obj.offsetLeft+dir+"px";
+                
+                if(Math.abs(target-obj.offsetLeft)<Math.abs(dir)){
+                    clearInterval(obj.timer);
+                    obj.style.left=target+"px";
+
+                }
+            },20);
+        }
+    }
+</script>
 </body>
-<script src="js/photo_TV.js"></script>
+
 </html>

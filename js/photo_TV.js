@@ -2,7 +2,7 @@ let p = $('#photos');
 
 function* get_left(){
     for(let i=0;; i++){
-        yield -1065-(i%3)*1190;
+        yield -1440-(i%3)*1440;
     }
 }
 
