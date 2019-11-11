@@ -1,0 +1,24 @@
+{
+  "name": "xinli2019_1",
+  "version": "1.0.0",
+  "description": "website of BJFU PDCC",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quaeast/xinli2019_1.git"
+  },
+  "author": "fangzidong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quaeast/xinli2019_1/issues"
+  },
+  "homepage": "https://github.com/quaeast/xinli2019_1#readme"
+}
