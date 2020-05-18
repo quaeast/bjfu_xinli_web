@@ -57,5 +57,5 @@ IP：202.204.121.152
 
 ### 网站源代码备份
 
-[github.com](https://github.com/quaeast/xinli2019_1)
+[github.com](https://github.com/quaeast/bjfu_xinli_web/)
 
